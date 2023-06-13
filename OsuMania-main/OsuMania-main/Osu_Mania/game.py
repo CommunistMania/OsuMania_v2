@@ -359,6 +359,11 @@ class Window:
                 self.kbc2 = False
                 self.kbc3 = False
                 self.kbc4 = False
+                
+            if key == "+":
+                self.scrollspeed += 1
+            if key == "-":
+                self.scrollspeed -= 1
             
             
     def on_key_release(self, key):
