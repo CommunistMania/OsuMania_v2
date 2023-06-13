@@ -250,6 +250,11 @@ class Window:
             fill(255, 255, 255)
             text("Hard", 850, 245)
             
+            textSize(40)
+            text("Approach speed: "+str(self.scrollspeed), 650, 600)
+            text("Change speed with +/-", 650, 650)
+            textSize(50)
+            
             text(self.msg, 650, 700)
             
             text(self.kb1, 500, 800)
